@@ -4,7 +4,7 @@ import './CountriesListElem.css';
 
 function CountriesListElem({
   eachCountry: {
-    name: { official },
+    name: { common },
     cca2,
     cca3,
   },
@@ -18,7 +18,7 @@ function CountriesListElem({
           width="20px"
           className="list-flag"
         />
-        <p className="list-name">{official}</p>
+        <p className="list-name">{common}</p>
       </Link>
     </div>
   );

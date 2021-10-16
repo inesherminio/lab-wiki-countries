@@ -14,7 +14,7 @@ class CountryDetails extends Component {
     });
     return (
       <div className="col-7" style={{ margin: '0' }}>
-        <h1>{filteredCountry.name.official}</h1>
+        <h1>{filteredCountry.name.common}</h1>
         <table className="table">
           <thead></thead>
           <tbody>
