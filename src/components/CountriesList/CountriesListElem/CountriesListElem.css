@@ -1,0 +1,16 @@
+.list-flag {
+  margin-right: 5px;
+}
+
+.list-name {
+  display: inline;
+  color: rgb(46, 46, 46);
+}
+
+.list-group-item a {
+  text-decoration: none;
+}
+
+.list-group-item-action {
+  text-align: left !important ;
+}
